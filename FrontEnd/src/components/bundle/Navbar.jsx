@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-trasparent border-gray-200">
-        <div className="flex flex-wrap items-center justify-between mx-4 p-4">
+        <div className="flex flex-wrap items-center justify-between mx-4 p-4 font-semibold tracking-wider">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
@@ -38,14 +38,14 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium  flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 ">
+            <ul className="font-medium  flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 ">
               <li>
                 <a
                   href="#"
                   className="block py-2 pl-3 pr-4 text-invert"
                   aria-current="page"
                 >
-                  Home
+                  HOME
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
                   href="#"
                   className="block py-2 pl-3 pr-4 text-invert"
                 >
-                  About
+                  ARTICLES
                 </a>
               </li>
               <li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                   href="#"
                   className="block py-2 pl-3 pr-4 text-invert border-2 border-invert"
                 >
-                  Subscribe
+                  SUBSCRIBE
                 </a>
               </li>
             </ul>
