@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-primary h-1/4 w-full gap-5 p-36 tracking-wider">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center h-full">
           <h1 className="text-invert font-semibold text-xl mb-1">SUBSCRIBE</h1>
-          <h3 className="text-invert font-semibold text-sm">
+          <h3 className="text-invert font-semibold text-sm text-center">
             Sign-up to our newsletter
           </h3>
         </div>
@@ -16,7 +16,7 @@ const Footer = () => {
         />
         <button
           type="submit"
-          className="text-invert font-bold border-2 border-invert w-28 h-10 tracking-wider"
+          className="text-invert font-bold border-2 border-invert w-28 h-10 tracking-wider hover:text-black hover:border-black"
         >
           SUBMIT
         </button>
@@ -24,7 +24,7 @@ const Footer = () => {
 
       {/* FOOTER 02 */}
 
-      <div className="w-full flex flex-col-reverse justify-center items-center gap-3 s:justify-between m-20 h-full pointer">
+      <div className=" flex flex-col-reverse justify-center items-center gap-3 s:flex-row s:justify-between m-20 h-full pointer">
         <div className=" h-full flex gap-3">
           {/* TWITTER */}
           <svg
@@ -36,6 +36,7 @@ const Footer = () => {
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             fill="#476064"
+            hover="black"
           >
             <circle
               id="Oval-2-Copy-2"
@@ -62,12 +63,15 @@ const Footer = () => {
             viewBox="0 0 40 40"
             xmlns="http://www.w3.org/2000/svg"
             fill="#476064"
+            
           >
             <circle
               className="eastendFooter_fill_hover"
               cx="20"
               cy="20"
               r="20"
+              onmouseover="this.setAttribute('fill', 'black');"
+              onmouseout="this.setAttribute('fill', '#476064');"
             ></circle>
             <path
               className="eastendFooterSocialIcons_listItemSvgPath"
@@ -140,10 +144,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <div className="flex flex-col text-center mb-5 gap-10 text-invert font-semibold tracking-wider">
-            <h3>HOME</h3>
-            <h3>ARTICLES</h3>
-            <h3>SUBSCRIBE</h3>
+          <div className="flex mb-5 gap-10 text-invert font-semibold tracking-wider">
+            <h3 className="hover:text-black">HOME</h3>
+            <h3 className="hover:text-black">ARTICLES</h3>
+            <h3 className="hover:text-black">SUBSCRIBE</h3>
           </div>
         </div>
       </div>

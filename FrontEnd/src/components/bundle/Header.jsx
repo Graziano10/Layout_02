@@ -8,14 +8,14 @@ const Header = () => {
   return (
     <>
       <div
-        className="h-[50rem] bg-cover bg-center mx-5 my-5 "
+        className="h-[50rem] bg-cover bg-center mx-5 my-5"
         style={logoHeader02}
       >
         <Navbar />
-        <header className="flex flex-col gap-8 justify-center items-center h-full">
+        <header className=" flex flex-col gap-8 justify-center items-center h-full">
           <div className="px-10 flex flex-col gap-8 justify-center items-center h-1/2">
             <h1 className="text-invert font-bold text-5xl text-center">
-              Nature Is Beyond
+              Nature Is <i>Formidable</i>
             </h1>
 
             <p className="text-invert font-semibold text-lg text-center">

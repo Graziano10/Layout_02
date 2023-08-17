@@ -5,7 +5,7 @@ const Main = () => {
 
   return (
     <>
-      <div className="flex flex-col bg-primary h-1/4 w-full tracking-wider">
+      <div className="flex flex-col bg-primary w-full tracking-wider">
         <div className="flex flex-col items-center justify-center gap-3 h-full my-8">
           <h1 className="text-center text-invert text-3xl font-semibold">
             LATEST ARTICLE
